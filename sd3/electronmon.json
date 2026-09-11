@@ -1,0 +1,5 @@
+{
+  "patterns": ["**/*"],
+  "restartPatterns": ["src/main.js", "package.json"],
+  "reloadPatterns": ["src/**/*.html", "src/**/*.css", "src/renderer.js"]
+}

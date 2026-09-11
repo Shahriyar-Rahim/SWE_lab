@@ -1,0 +1,14 @@
+{
+  "name": "day_1",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "dev": "nodemon --watch src --ext js,html,css --exec electron . --disable-gpu"
+  },
+  "devDependencies": {
+    "electron": "^44.2.0",
+    "nodemon": "^3.1.14"
+  },
+  "type": "commonjs"
+}
