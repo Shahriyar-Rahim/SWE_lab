@@ -41,7 +41,7 @@ function createMenu() {
     Menu.setApplicationMenu(menu);
 }
 
-app.whenReady().then(() => {
+app.on('ready',() => {
     createWindow()
     createMenu()
 
